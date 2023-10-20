@@ -1,2 +1,4 @@
 node_modules/
 .DS_Store
+# git add ./git commit -m ''/copy github website command /git remote -v 
+# git push /提示git push --set-upstream origin master

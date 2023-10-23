@@ -1,0 +1,69 @@
+<!-- 
+  搭建vite架构：npm create vite@latest
+  cd 创建的文件夹 npm install npm run
+  删除不需要的文件，创建需要的文件
+  工程化：创建配置config文件 并安装npm install path-browserify
+  import { defineConfig } from 'vite'
+  import path from "path"
+  export default defineConfig({
+  resolve: {
+      alias:{
+          "@":path.resolve(__dirname,"./src")
+      }
+  }
+  })在vite下使用
+  和其他框架下
+  {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+        "@/*":["src/*"]
+    }
+  }
+}
+  安装相关插件npm i axios normalize.css
+ -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Social</title>
+    <link rel="stylesheet" href="http://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav>
+      <!-- LOGO -->
+      <div class="logo">TOPSOCIAL</div>
+      <!-- SEARCH BAR -->
+      <div class="search-bar">
+        <i class="uil uil-search-alt"></i>
+        <input type="search" name="navbar-search" id="navbar-search" placeholder="Search for Creators">
+      </div>
+      <!-- BUTTON -->
+      <div class="create">
+        <label for="create-post" class="btn btn-primary">
+          Create
+        </label>
+      <!-- PROFILE PHOTO -->
+      <div class="profile-photo">
+        <img src="" alt="profile photo">
+      </div>
+      </div>
+    </nav>
+
+
+    <!-- MAIN -->
+
+
+
+
+
+
+
+
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>

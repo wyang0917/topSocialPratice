@@ -2,3 +2,28 @@ node_modules/
 .DS_Store
 # git add ./git commit -m ''/copy github website command /git remote -v 
 # git push /提示git push --set-upstream origin master
+
+
+#   搭建vite架构：npm create vite@latest
+#   cd 创建的文件夹 npm install npm run
+#   删除不需要的文件，创建需要的文件
+#   工程化：创建配置config文件 并安装npm install path-browserify
+#   import { defineConfig } from 'vite'
+#   import path from "path"
+#   export default defineConfig({
+#   resolve: {
+#       alias:{
+#           "@":path.resolve(__dirname,"./src")
+#       }
+#   }
+#   })在vite下使用
+#   和其他框架下
+#   {
+#   "compilerOptions": {
+#     "baseUrl": ".",
+#     "paths": {
+#         "@/*":["src/*"]
+#     }
+#   }
+# }
+#   安装相关插件npm i axios normalize.css

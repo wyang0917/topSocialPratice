@@ -25,3 +25,10 @@ nav .container .create {
   justify-content: space-between;
   gap: 1rem;
 }
+
+nav .container .logo {
+  text-transform: uppercase;
+  font-family: "Comfortaa", cursive;
+  font-size: 1.2rem;
+  user-select:none;
+}

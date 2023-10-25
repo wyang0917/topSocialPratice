@@ -27,3 +27,5 @@ node_modules/
 #   }
 # }
 #   安装相关插件npm i axios normalize.css
+
+# 安装eslint 设置rules

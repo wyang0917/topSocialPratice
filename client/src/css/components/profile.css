@@ -3,8 +3,8 @@
 .profile-photo{
   width:2.7rem;
   min-width: 2.7rem;
-  border-radius: 50%;
   aspect-ratio: 1/1;
+  border-radius: 50%;
   border: 0.16rem solid var(--color-primary);
   overflow: hidden;
 }

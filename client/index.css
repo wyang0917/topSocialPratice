@@ -12,4 +12,8 @@
 @import "./src/css/components/search.css";
 
 /* frames */
-@import "./src/css/frames/nav/nav.css"
+@import "./src/css/frames/nav/nav.css";
+@import "./src/css/frames/main/main.css";
+@import "./src/css/frames/main/left/main_left.css";
+@import "./src/css/frames/main/left/main_left_side.css";
+
